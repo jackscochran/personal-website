@@ -84,7 +84,7 @@
         "img": "images/projects/connect-4.png",
         "technologies": ["AI", "Minimax", "Python", "React", "Javascript", "Flask"],
         "github": "https://github.com/jackscochran/Connect4-Web-App",
-        "link": "",
+        "link": "https://playable-connect4.herokuapp.com/",
         "size": "col-12 col-md-6 col-lg-4"
     },
     {
