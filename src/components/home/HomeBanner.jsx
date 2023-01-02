@@ -1,5 +1,5 @@
 
-const HomeBanner = ({}) => {
+const HomeBanner = () => {
 
     const style = {
         banner: {
