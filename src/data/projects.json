@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Deepstone Quantitative Investments Web App",
+        "yearCreated": 2022,
+        "seasonCreated": "Spring",
+        "description": "Second version of the web application built for the quantitative investment company I co-founded. Features include ability to register/login users with local password encryption, search over 10,000 stocks from an internal database, get company data such as their profile and price history, and compare financials between multiple companies by line item.",
+        "img": "images/projects/deepstone.png",
+        "technologies": ["React", "Javascript", "Node.js", "MongoDB", "Express"],
+        "github": "https://github.com/jackscochran/deepstone-web-app",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-5"
+    },
+    {
+        "name": "Dynamic Stock Database",
+        "yearCreated": 2022,
+        "seasonCreated": "Spring",
+        "description": "System developed to manage loading data dynamically into an interal database for Deepstone on daily intervals. This code pulls stock data, such as stock price and financials, from numerous API's and then cleans and stores the data into a mongo noSQL database.",
+        "img": "images/projects/stock-database-manager.jpg",
+        "technologies": ["Python", "MongoDB", "PyTest", "APIs", "Database Automation"],
+        "github": "https://github.com/jackscochran/deepstone-data-management",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-4"
+    },
+    {
+        "name": "Scissor Shack Studio",
+        "yearCreated": 2022,
+        "seasonCreated": "Summer",
+        "description": "Simple website developed for a local hair salcon in Blind Bay, BC. Built using wordpress and elementor.",
+        "img": "images/projects/scissor-shack.png",
+        "technologies": ["Wordpress", "Web Design", "Web Development", "Site Maintenance"],
+        "github": null,
+        "link": "https://scissorshackstudio.com/",
+        "size": "col-12 col-md-6 col-lg-3"
+    },
+    {
+        "name": "Social Media Scraper",
+        "yearCreated": 2022,
+        "seasonCreated": "Summer",
+        "description": "Collection of Python scripts used to collect post data around a given keyword from social media platforms such as Reddit, TikTok, Youtube, and Instagram. The data was used to analyze trends of the popularity for certain keywords to determine which platforms were best for marketing a given product.",
+        "img": "images/projects/data-scrapers.png",
+        "technologies": ["Selenium", "Python", "Web Scraping", "Data Analysis"],
+        "github": "https://github.com/jackscochran/social-media-scrapers",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-5"
+    },
+    {
+        "name": "Machine Learning Stock Predictor Training Enviroment",
+        "yearCreated": 2021,
+        "seasonCreated": "Winter",
+        "description": "Stock Predictor Model Learning Environment used for training and evaluating machine learning models for stock prediction, as well as creating and testing stock portfolios. It supports multiple prediction algorithms and feature extraction techniques such as random forest, MLP, and PCA. It includes evaluation methods such as correlation tests, residual analysis, and return on investment calculations. It also allows for the creation and testing of portfolios based on algorithm predictions, using metrics such as sharpe ratios, average returns, and standard deviations of returns for performance evaluation.",
+        "img": "images/projects/random-forest.png",
+        "technologies": ["Machine Learning", "Data Cleaning", "Data Transformation", "Stock Prediction", "Portfolio Theory","Python"],
+        "github": "https://github.com/jackscochran/stock-algorithm",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-7"
+    },
+    {
+        "name": "ALIIAS Investments",
+        "yearCreated": 2021,
+        "seasonCreated": "Fall",
+        "description": "First version of the website I built for the quantitiative investment company I co-founded. The application backend pulls data on a scheduled basis from yahoo finance apis and rates stocks based on a proprietary algorithm. The frontend allows users to search for stocks and view their ratings and company information.",
+        "img": "images/projects/aliias.png",
+        "technologies": ["Stock Prediction Algorithms", "Python", "Flask", "Javascript", "JQuery"],
+        "github": "https://github.com/jackscochran/aliias",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-4"
+    },
+    {
+        "name": "House Price Predictor",
+        "yearCreated": 2020,
+        "seasonCreated": "Winter",
+        "description": "A linear regression model built for a Western AI project that predicts house prices based on various features from a .csv file. The data is cleaned and preprocessed, then split into training and testing sets. A linear regression model is trained on the training data and tested on the testing data, with the R-squared value being calculated as a measure of performance. The resulting average R-squared value from running the code is ~77.5%. ",
+        "img": "images/projects/linear-reg.png",
+        "technologies": ["AI", "Python", "Linear Regression", "Data Cleaning", "Data Transformation"],
+        "github": "https://github.com/jackscochran/house-price-predictor",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-4"
+    },
+    {
+        "name": "Connect-4 AI",
+        "yearCreated": 2020,
+        "seasonCreated": "Winter",
+        "description": "An implimentation of the game Connect-4 using React for the front-end and Python with Flask for the back-end. In the game you play against bots that make thier moves based on the mini-max algorithm, which works by considering all possible moves and outcomes and selecting the move that leads to the best outcome, assuming that the opponent will also play optimally.",
+        "img": "images/projects/connect-4.png",
+        "technologies": ["AI", "Minimax", "Python", "React", "Javascript", "Flask"],
+        "github": "https://github.com/jackscochran/Connect4-Web-App",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-4"
+    },
+    {
+        "name": "Movac",
+        "yearCreated": 2022,
+        "seasonCreated": "Spring",
+        "description": "Website developed for hyrdovac company in Alberta. Built using wordpress and elementor, the site includes a pages for about us, services, and careers. The career page includes a custom wordpress plugin that displays job posting from indeed. The site also includes a custom contact form that sends emails to the company protected using reCAPTCHA.",
+        "img": "images/projects/movac.png",
+        "technologies": ["Wordpress", "Web Design", "Web Development", "Site Maintenance"],
+        "github": null,
+        "link": "https://movac.ca/",
+        "size": "col-12 col-md-6 col-lg-6"
+    },
+    {
+        "name": "Screen Snake",
+        "yearCreated": 2020,
+        "seasonCreated": "Summer",
+        "description": "Recreation of classic screen snake game implemented in LÖVE, a 2D game engine for the programming language Lua. It features two game modes and score tracking. The snake can be controlled by the player and grows when it consumes food. The game has a start screen and a game over screen, and the score is displayed on both.",
+        "img": "images/projects/screen-snake.png",
+        "technologies": ["Lua", "Game Development"],
+        "github": "https://github.com/jackscochran/Screen-Snake",
+        "link": "",
+        "size": "col-12 col-md-6 col-lg-4"
+    }
+]

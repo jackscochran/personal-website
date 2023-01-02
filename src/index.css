@@ -1,8 +1,10 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 0 0 100px 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont,'Helvetica Neue',
     sans-serif;
+  font-style: normal;
+  color: #211b12;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,135 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  width: 100%;
+  height: 'auto';
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.03em;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* font colours */
+
+.primary-white{
+  color: #ffffff;
+}
+
+.primary-blue{
+  color: #3576C2;
+}
+
+.secondary-blue{
+  color: #cee1f8;
+}
+
+.secondary-grey{
+  color: #83807C;
+}
+
+/* global styles */
+
+.tag{
+  border: 1px solid #3576C2;
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  float: left;
+}
+
+.wrapper::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+a .icon{
+  color: #211b12;
+}
+
+a .icon:hover{
+  color: #3576C2;
+}
+
+.fancy-link{
+  font-weight: bold;
+  color: #211b12;
+  text-decoration: none;
+  border-bottom: 2px solid #3576C2;
+  padding: 5px;
+  margin-right: 5px;
+
+  background: linear-gradient(#ffffff, #ffffff 50%, #3576C2 50%, #3576C2);
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 0.5s, color 0.5s;
+
+}
+
+.fancy-link:hover{
+  color: #fff;
+  background-position: 100% 100%;
+}
+
+.responsive-margin{
+  margin-bottom: 175px;
+}
+
+@media screen and (max-width: 1275px) {
+  .responsive-margin{
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .responsive-margin{
+    margin-bottom: 230px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .responsive-margin{
+    margin-bottom: 275px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .responsive-margin{
+    margin-bottom: 350px;
+  }
 }
