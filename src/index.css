@@ -109,7 +109,7 @@ a .icon:hover{
   background-size: 100% 200%;
   /*trasition effect for background*/
   transition: background 0.5s, color 0.5s;
-
+  cursor: pointer;
 }
 
 .fancy-link:hover{

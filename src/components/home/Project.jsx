@@ -49,8 +49,8 @@ const Project = (project) => {
                     )}
                 </div>
                 <p style={style.description}>{project.description}</p>
-                {project.github && <a href={project.github} target="_blank" className="fancy-link"><BsCode/> Code</a>}
-                {project.link && <a href={project.link} target="_blank" className="fancy-link"><GoLinkExternal/> Demo</a>}
+                {project.github && <a href={project.github} target="_blank" rel="noreferrer" className="fancy-link"><BsCode/> Code</a>}
+                {project.link && <a href={project.link} target="_blank" rel="noreferrer" className="fancy-link"><GoLinkExternal/> Demo</a>}
             </div>
         </div>
     )

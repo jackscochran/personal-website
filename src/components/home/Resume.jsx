@@ -8,7 +8,7 @@ const Resume = () => {
       }
 
     return (
-        <a onClick={onResumeClick} className="fancy-link"><GoLinkExternal/> Resume</a>
+        <span onClick={onResumeClick} className="fancy-link"><GoLinkExternal/> Resume</span>
     )
 
 }

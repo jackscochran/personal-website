@@ -34,8 +34,8 @@ const Profile = () => {
                 <p><span className="primary-blue" style={style.bigText} >I am currently looking for oppurtunities to grow as a developer and software engineer</span></p>
                 <p>I am skilled in a variety of programming languages and technologies and am motivated to deliver my best work. I am excited to continue learning as a software developer and to use my skills to create innovative solutions.</p>
                 <Resume/>
-                <a href="https://github.com/jackscochran" target="_blank"><BsGithub className="icon"/></a>
-                <a href="https://www.linkedin.com/in/jackscochran/" target="_blank"><BsLinkedin className="icon"/></a>
+                <a href="https://github.com/jackscochran" target="_blank" rel="noreferrer"><BsGithub className="icon"/></a>
+                <a href="https://www.linkedin.com/in/jackscochran/" target="_blank" rel="noreferrer"><BsLinkedin className="icon"/></a>
             </div>
         </div>
     )
