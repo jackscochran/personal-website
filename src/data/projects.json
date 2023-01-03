@@ -91,7 +91,7 @@
         "name": "Movac",
         "yearCreated": 2022,
         "seasonCreated": "Spring",
-        "description": "Website developed for hyrdovac company in Alberta. Built using wordpress and elementor, the site includes a pages for about us, services, and careers. The career page includes a custom wordpress plugin that displays job posting from indeed. The site also includes a custom contact form that sends emails to the company protected using reCAPTCHA.",
+        "description": "Website developed for hydrovac company in Alberta. Built using wordpress and elementor, the site includes a pages for about us, services, and careers. The career page includes a custom wordpress plugin that displays job posting from indeed. The site also includes a custom contact form that sends emails to the company protected using reCAPTCHA.",
         "img": "images/projects/movac.png",
         "technologies": ["Wordpress", "Web Design", "Web Development", "Site Maintenance"],
         "github": null,
